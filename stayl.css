@@ -11,3 +11,22 @@
 
     font-size: 30px ;
 }
+.sce h2{
+    font-style: italic;
+    font-size: 40px;
+}
+.sce p a{
+    color: yellow;
+    text-decoration: line-through;
+}
+.sce >a {
+    color: beige;
+}
+.list{
+    background-color: #54a0ff;
+    width: 70%;
+}
+.list h3:nth-child(even){
+    text-align: center;
+    color: white;
+}
