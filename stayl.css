@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 .sce{
     background-color: #00d2d3;
     width: 70%;
@@ -23,10 +26,18 @@
     color: beige;
 }
 .list{
-    background-color: #54a0ff;
+    background-color: #e67e22;
     width: 70%;
 }
-.list h3:nth-child(even){
+.list h3:nth-child(odd){
     text-align: center;
     color: white;
+    font-size: 30px;
+}
+i , b ,u{
+    display: block;
+    font-size: 20px;
+    color:#95a5a6;
+    text-align: center;
+    width: 70%;
 }
